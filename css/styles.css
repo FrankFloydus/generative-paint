@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Playfair+Display:400,400i,700');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(20, 20, 20);
+}
+
+canvas {
+  display: block;
+  margin: 50px auto;
+  border: 10px solid rgba(255, 255, 255, 0.315);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1, p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+p {
+    color: lightcoral;
+}
